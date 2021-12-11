@@ -1,0 +1,111 @@
+@font-face{
+    font-family: "dyno";
+    src: url("../fonts/dyno.ttf");
+
+        }
+
+@font-face{
+    font-family: "ciclefina";
+    src: url("../fonts/ciclefina.ttf");
+
+        }
+body{
+    font-family:"ciclefina",Arial ;
+    margin: 0;
+    padding: 0;
+    background-color: #333333;
+    color: white;
+}
+
+
+        /*---------------------------------------------   
+
+.container{
+    margin-left: 0%;
+    border: 2px black solid;
+    border-radius: 20px;
+}
+*/ 
+#img_acc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/acc.jpg");
+    background-position: 50%;
+    height: 500px;
+    z-index: -1;
+
+}
+
+
+.content{
+    font-size: 50px;
+    font-family: "dyno";
+    color: white;
+    z-index: 99999;
+
+        }
+
+
+.navi{
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style-type: none;
+    background-color: #ea5c0d;
+    height: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.navi a{
+    font-size: larger;
+    color: white;
+    text-decoration: none;
+}
+.navi a:hover{
+    color: black;
+}
+.bloc{
+    background-color: #ea5c0d;
+    height: 60px;
+}
+.bloc marquee{
+    font-family: Arial;
+    display: flex;
+    align-items: center;
+    background-color: #ea5c0d;
+    height: 60px;
+    font-size: 30px;
+
+
+
+}
+article{
+    margin-top: -25px;
+    background-color: #505050;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+h1{
+    border-bottom: 3px #f7af3e solid;
+    font-size: 30px;
+    margin-left: 10%;
+    margin-right: 50%;
+    padding-top: 2%;
+    padding-bottom: 3px;
+    border-bottom-right-radius:10px;
+    width: 39%;
+}
+article p{
+    margin-left: 10%;
+    margin-right: 10%;
+    text-align:justify;
+    
+}
+
+
+footer{
+    text-align: center;
+}
