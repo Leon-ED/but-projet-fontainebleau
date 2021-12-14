@@ -17,7 +17,6 @@ body{
     color: white;
 }
 
-
         /*---------------------------------------------   
 
 .container{
@@ -26,6 +25,16 @@ body{
     border-radius: 20px;
 }
 */ 
+
+
+.contain{
+    line-height: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
 #img_acc{
     display: flex;
     justify-content: center;
@@ -36,7 +45,9 @@ body{
     z-index: -1;
 
 }
-
+#content{
+    font-size: 30px;
+}
 
 .content{
     font-size: 50px;
@@ -108,4 +119,5 @@ article p{
 
 footer{
     text-align: center;
+    margin-bottom: 5%;
 }
