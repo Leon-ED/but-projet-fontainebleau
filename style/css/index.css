@@ -45,6 +45,17 @@ body{
     z-index: -1;
 
 }
+
+#img_acc_hst{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("../images/history.jpg");
+    background-position: 50%;
+    height: 500px;
+    z-index: -1;
+	
+}
 #content{
     font-size: 30px;
 }
@@ -94,10 +105,12 @@ body{
 
 }
 article{
+	font-size:2.2vh;
     margin-top: -25px;
     background-color: #505050;
     margin-left: 10%;
     margin-right: 10%;
+	padding-bottom: 3%
 }
 h1{
     border-bottom: 3px #f7af3e solid;
