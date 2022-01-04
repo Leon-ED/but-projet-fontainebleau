@@ -17,8 +17,10 @@ body{
     background-color: #333333;
     color: white;
     z-index: 1;
-    scroll-behavior: smooth;
 
+}
+*{
+    scroll-behavior: smooth;
 }
 a{
     text-decoration: none;
@@ -96,19 +98,18 @@ a{
   }
   
 article{
-    height: 9000px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 .article-content{
-    height: 9000px;
+    margin-top:50px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 70%;
+    width: 50%; 
     background-color: #505050;
-    /* background-color: #333333; */
+    background-color: #333333;
 }
 .article-content p{
     line-height: 20px;
@@ -120,19 +121,43 @@ permet de rendre la lecture plus facile mais aussi l'affichage plus beau car il 
  */
  h1{
     font-size: 60px;
-    border-bottom: 2px#f7af3e solid;
-    border-bottom-right-radius: 5px;
+    /* border-bottom: 2px#f7af3e solid; */
+    /* border-bottom-right-radius: 5px; */
+    border:#f7af3e 3px solid;
+    border: #b94503 3px solid;
+    border-radius: 10px 30px;
+    padding: 7px;
+
 }
 h2{
+    width: fit-content;
+    text-align: left;
     font-size: 40px;
     border-bottom: 2px#f7af3e solid;
     border-bottom-right-radius: 5px;
 }
-footer{
-    text-align: center;
-    margin-bottom: 5%;
+.bordures{
+    margin-top: 20px;
+    padding: 15px;
+    border:1px #f7af3e solid;
+    border-radius: 0px 20px 0px 20px;
 }
+.container{
+    display: flex;
+    align-items: flex-start;
 
+}
+.container *{
+    padding: 20px;
+}
+footer{
+    background-color: #505050;
+    text-align: center;
+    padding-bottom: 30px;
+}
+ul{
+    list-style:square;
+}
 
 
 @media screen and (max-width: 1200px) {
@@ -140,7 +165,9 @@ footer{
     background-color:  #333333;
     width: 100%;
     }
+
 .article-content p{
+    max-width: 600px;
     text-align: justify;
     margin-left: 10px;
     margin-right: 10px;
@@ -151,6 +178,9 @@ footer{
 .top-nav{
     padding-left: 10px;
     padding-right: 10px;
+}
+.mobile-hidden{
+    display: none;
 }
 }
 
