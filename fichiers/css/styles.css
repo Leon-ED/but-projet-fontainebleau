@@ -13,6 +13,7 @@ body{
     font-family:"ciclefina",Arial ;
     margin: 0;
     padding: 0;
+    /* background-color: #333333; */
     background-color: #333333;
     color: white;
     z-index: 1;
@@ -27,7 +28,7 @@ a{
 }
 
 .bloc{
-    background-color: #ea5c0d;
+    background-color:#ea5c0d;
     height: 100px;
 }
 .bloc a{
@@ -51,9 +52,12 @@ a{
     justify-content: center;
     margin-top: -50px;
     height: 90vh;
-    background-repeat: no-repeat;
-    background-image: url("../medias/images/acc.jpg");
-    background-position-x: center;
+    background-repeat: fill;
+    background: url("../medias/images/acc.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 .top .container .content{
     padding-left: 15px;
@@ -104,13 +108,14 @@ article{
     align-items: center;
     width: 70%;
     background-color: #505050;
+    /* background-color: #333333; */
 }
 .article-content p{
     line-height: 20px;
     font-size: 20px;
 }
 /*
- Marge des écrits quand la page est affichée sur un petit écran
+ Marge des Ã©crits quand la page est affichÃ©e sur un petit Ã©cran
 permet de rendre la lecture plus facile mais aussi l'affichage plus beau car il n'y a plus de marge
  */
  h1{
@@ -148,5 +153,4 @@ footer{
     padding-right: 10px;
 }
 }
-
 
