@@ -58,8 +58,7 @@ a{
     margin-top: -50px;
     height: 90vh;
     background-repeat: fill;
-    background: url("https://www.fontainebleau-tourisme.com/wp-content/uploads/2018/04/chateau2.jpg") no-repeat center center fixed; 
-    /* background: url("../medias/images/acc.jpg") no-repeat center center fixed; */
+    background: url("../medias/images/acc.jpg") no-repeat center center fixed;
 
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -180,6 +179,8 @@ ul{
 
 @media screen and (max-width: 1200px) {
 .article-content{
+    align-items: center;
+    justify-content: center;
     background-color:  #333333;
     width: 100%;
     }
