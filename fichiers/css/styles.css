@@ -1,3 +1,6 @@
+
+/* Polices d'écritures */
+
 @font-face{
     font-family: "dyno";
     src: url("../fonts/dyno.ttf");
@@ -9,6 +12,8 @@
     src: url("../fonts/ciclefina.ttf");
 
         }
+
+/* Paramètres généraux */
 body{
     font-family:"ciclefina",Arial ;
     margin: 0;
@@ -19,9 +24,7 @@ body{
     z-index: 1;
 
 }
-*{
-    scroll-behavior: smooth;
-}
+
 a{
     text-decoration: none;
     color: white;
@@ -55,13 +58,21 @@ a{
     margin-top: -50px;
     height: 90vh;
     background-repeat: fill;
-    background: url("../medias/images/acc.jpg") no-repeat center center fixed;
+    background: url("https://www.fontainebleau-tourisme.com/wp-content/uploads/2018/04/chateau2.jpg") no-repeat center center fixed; 
+    /* background: url("../medias/images/acc.jpg") no-repeat center center fixed; */
+
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
 }
 .top .container .content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 96%;
+    width: 100%;
+    backdrop-filter: blur(5px);
     padding-left: 15px;
     font-family: dyno;
     color: white;
