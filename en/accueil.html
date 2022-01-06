@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>Home : Palace of Fontainebleau</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="UNESCO project : Website about the Palace of Fontainebleau and its park">
+        <meta name="author" content="Léon EDMEE">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" href="../fichiers/medias/images/icon.PNG">
+        <link rel="stylesheet" href="../fichiers/css/styles.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <style>
+            iframe{
+                max-width: 90%;
+            }
+        </style>
+    </head>
+    <body>
+        <a id='skip' href="#content">Go to content</a>
+        <div class="bloc">
+            <div class="mobile-hidden">
+                <a href="https://www.youtube.com/watch?v=wEdrFO9xKes">Happy new year in video ! </a>
+            </div>
+        </div>
+        <div class="top">
+            <div class="container">
+                <div class="content">
+                    <p>
+                        Fontainebleau,    <br>
+                        a World Heritage Site</p>
+                </div>
+            </div>
+        </div>
+        <div id='top'>
+            <nav class="bloc-navigation">
+                <ul class="top-nav" id="content">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="./history.html#content">History</a></li>
+                    <li><a href="./visit.html#content">Visit</a></li>
+                    <li><a href="./about.html#content">About</a></li>
+                    <li><a href="../fr/accueil.html">FR</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article>
+            <div class="article-content">
+            <h1>Welcome !</h1>
+            <p>
+                On this website you will learn more about the thrilling history of the palace of Fontainebleau and its park both classed as 
+                 a World Heritage Site by UNESCO.
+            </p>
+            <p>
+                You will be able to plan your trip by learning how to come and how to visit as best as possible : <strong>Fontainebleau !</strong><br>
+                Where are the famous palace and its beautiful park.
+            </p>
+            <p>
+                <h2>Discover Fontainebleau</h2>
+                <iframe width="1000" height="500" src="https://www.youtube-nocookie.com/embed/pC2hIv2IFdk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Drone footage from above.</h4>
+            </p>
+            <p>
+                <h2>Talking about us !</h2>
+                <iframe width="1000" height="500" src="https://www.youtube-nocookie.com/embed/Dko5_xVQMsc" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <h4>Palace of Fontainebleau video Guide on YouTube by <quote><a href="https://www.youtube.com/channel/UCYlW84S3ZOS4RpCmTKBdGow">Travel and discover</a></quote></h4>
+            </p>
+        </div>
+        </article>
+        <footer>
+            <p>Made in partnership with</p>
+            <div>
+                <img src="../fichiers/medias/images/mcn.PNG" height="60" alt="MCN's logo">
+                <img src="../fichiers/medias/images/unesco.PNG" height="70" alt="UNESCO's logo">
+            </div>
+            <details>
+                <summary> 
+                    Made in december of 2021.
+                </summary>
+                Copyrights (c) 2021 - All rights reserved <br>
+                The images used belong to their respective authors <br>
+                And have been used under the Creative Commons license allowing us <br>
+                to reuse them free of charge for non-profit or commercial purposes.
+            </details>
+
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("top");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.remove("top");
+            } else {
+            navbar.classList.remove("sticky");
+            }
+            }
+        </script>
+
+    </body>

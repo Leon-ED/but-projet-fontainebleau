@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <title>About : Palace of Fontainebleau</title>
+        <meta charset="utf-8" />
+        <meta name="description" content="UNESCO project : Website about the Palace of Fontainebleau and its park">
+        <meta name="author" content="Léon EDMEE">
+        <meta name="robots" content="noindex, nofollow" />
+        <link rel="icon" href="../fichiers/medias/images/icon.PNG">
+        <link rel="stylesheet" href="../fichiers/css/styles.css">
+        <link rel="stylesheet" href="../fichiers/css/about.css">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <a id='skip' href="#content">Go to content</a>
+        <div class="bloc"></div>
+        <div class="top">
+            <div class="container">
+                <div class="content">
+                    <p>
+                        About this website
+                        </p>
+                </div>
+            </div>
+        </div>
+        <div id='top'>
+            <nav class="bloc-navigation">
+                <ul class="top-nav" id="content">
+                    <li><a href="./accueil.html">Home</a></li>
+                    <li><a href="./history.html#content">History</a></li>
+                    <li><a href="./visit.html#content">Visit</a></li>
+                    <li><a href="#content">About</a></li>
+                    <li><a href="../fr/about.html#content">FR</a></li>
+                </ul>
+            </nav>
+        </div>
+        <article>
+            <aside>
+                <p>
+                    Thank you for visiting our site!
+                    If you have the time, but especially if you have the desire, do not hesitate to help us by
+                    by filling in the following form:<br>
+                </p>
+                <iframe class="bordures" 
+                src="https://docs.google.com/forms/d/e/1FAIpQLSc08KKUIXc2nx45y9DGlNSyD3-2Vks2cniIGiiAUIPjYfPIRw/viewform?embedded=true" 
+                width="400" height="600" frameborder="0" marginheight="0" marginwidth="0">Loading the form....
+                </iframe>
+
+            </aside>
+            <div class="article-content">
+                <h1>About</h1>
+                    <p>
+                        This website was created by the Fontainebleau team of the BUT 1 Informatique of the IUT Marne-la-Vallée
+                        as part of the communication project by :
+                        <ul>
+                            <li>DELMAS Denis : <strong>Project manager</strong></li>
+                            <li>CAI Delmas : <strong>Graphic Designer</strong></li>
+                            <li>EDMEE Léon : <strong>Web Development Manager</strong></li>
+                            <li>DOUMI Sofiane : <strong>Communication Manager</strong></li>
+                            <li>EL OTMANI Loqmane : <strong>Writer </strong></li>
+                        </ul>
+
+                    </p>
+                    <h1>Licence and credits</h1>
+                    <p>
+                        The images used on this site are free of rights according to following
+                        <a href="https://creativecommons.org/licenses/by/2.0/">licence</a>.
+                    </p>
+                    <p>Home image : <a href="http://">office du tourisme de Fontainebleau</a>
+                    </p>
+            </div>
+            <!--
+            <aside>
+                <p>Retrouver le château de Fontainebleau:</p>
+                <p>
+                    <ul class='links'>
+                        <li>Sur youtube</li>
+                        <li>Sur Facebook</li>
+                        <li>Sur Twitter</li>
+                    </ul>
+                </p>
+            </aside>
+            -->
+        </article>
+        <footer>
+            <p>Made in partnership with</p>
+            <div>
+                <img src="../fichiers/medias/images/mcn.PNG" height="60" alt="MCN's logo">
+                <img src="../fichiers/medias/images/unesco.PNG" height="70" alt="UNESCO's logo">
+            </div>
+            <details>
+                <summary> 
+                    Made in december of 2021.
+                </summary>
+                Copyrights (c) 2021 - All rights reserved <br>
+                The images used belong to their respective authors <br>
+                And have been used under the Creative Commons license allowing us <br>
+                to reuse them free of charge for non-profit or commercial purposes.
+            </details>
+
+        </footer>
+        <script>
+            window.onscroll = function() {myFunction()};
+            var navbar = document.getElementById("top");
+            var sticky = navbar.offsetTop;
+            function myFunction() {
+            if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky")
+            navbar.classList.remove("top");
+            } else {
+            navbar.classList.remove("sticky");
+            }
+            }
+        </script>
+
+    </body>
