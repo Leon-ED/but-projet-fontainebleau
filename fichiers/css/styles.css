@@ -118,8 +118,9 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
     width: 50%; 
-    background-color: #505050;
+    /* background-color: #505050; */
     background-color: #333333;
 }
 .article-content p{
@@ -182,8 +183,11 @@ ul{
     background-color:  #333333;
     width: 100%;
     }
-
+.article-content h3{
+    margin-left: 15px;
+}
 .article-content p{
+    
     max-width: 600px;
     text-align: justify;
     margin-left: 10px;
