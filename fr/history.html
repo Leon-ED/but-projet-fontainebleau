@@ -32,7 +32,7 @@
             <nav class="bloc-navigation">
                 <ul class="top-nav" id="content">
                     <li><a href="./accueil.html">Accueil</a></li>
-                    <li><a href="#">Histoire</a></li>
+                    <li><a href="#content">Histoire</a></li>
                     <li><a href="./visit.html#content">Visiter</a></li>
                     <li><a href="#content">A propos</a></li>
                     <li><a href="../en/history.html#content">EN</a></li>
@@ -118,32 +118,28 @@
 
         </article>
         <footer>
-            <p>Site web réalisé en partenariat avec :</p>
+            <p>Made in partnership with</p>
             <div>
-                <img src="../fichiers/medias/images/mcn.PNG" height="60" alt="Logo du MCN">
-                <img src="../fichiers/medias/images/unesco.PNG" height="70" alt="Logo de l'UNESCO">
+                <img src="../fichiers/medias/images/mcn.PNG" height="60" alt="MCN's logo">
+                <img src="../fichiers/medias/images/unesco.PNG" height="70" alt="UNESCO's logo">
             </div>
             <details>
                 <summary> 
-                    Réalisé en décembre 2021.
+                    Made in december of 2021.
                 </summary>
-                Copyrights (c) 2021 - Touts droits réservés <br>
-                Les images utilisées appartiennent à leurs auteurs respectifs<br>
-                Et ont étés utilisées dans le cadre de la licence Créative Commons nous autorisant <br>
-                à les réutiliser gratuitement à but non lucratif ou commercial.
+                Copyrights (c) 2021 - All rights reserved <br>
+                The images used belong to their respective authors <br>
+                And have been used under the Creative Commons license allowing us <br>
+                to reuse them free of charge for non-profit or commercial purposes.
             </details>
 
         </footer>
         <script>
-                        // When the user scrolls the page, execute myFunction
                         window.onscroll = function() {myFunction()};
 
-// Get the navbar
 var navbar = document.getElementById("top");
-// Get the offset position of the navbar
 var sticky = navbar.offsetTop;
 
-// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
 function myFunction() {
 if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
